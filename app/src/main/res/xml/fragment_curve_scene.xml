@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        motion:constraintSetEnd="@+id/vertical"
+        motion:constraintSetStart="@id/start"
+        motion:duration="2000"
+        motion:pathMotionArc="startVertical">
+       <KeyFrameSet>
+       </KeyFrameSet>
+        <OnSwipe motion:dragDirection="dragUp" />
+    </Transition>
+
+    <ConstraintSet android:id="@+id/start">
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/vertical">
+        <Constraint
+            motion:layout_constraintVertical_bias="0.026"
+            android:layout_height="130dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintHorizontal_bias="0.943"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="130dp"
+            android:id="@+id/georgeCurve"
+            android:rotationY="180" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@+id/horizontal"
+        android:rotationY="180">
+        <Constraint
+            motion:layout_constraintVertical_bias="0.026"
+            android:layout_height="130dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintHorizontal_bias="0.943"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="130dp"
+            android:id="@+id/georgeCurve"
+            android:rotationY="180" />
+    </ConstraintSet>
+    <Transition
+        motion:constraintSetStart="@+id/start"
+        motion:constraintSetEnd="@+id/horizontal"
+        motion:duration="2000"
+        motion:motionInterpolator="cubic(0.5,0,0.5,1)"
+        motion:pathMotionArc="startHorizontal">
+        <OnSwipe motion:dragDirection="dragEnd" />
+    </Transition>
+</MotionScene>

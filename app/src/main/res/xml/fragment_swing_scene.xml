@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        motion:constraintSetEnd="@+id/peppaView"
+        motion:constraintSetStart="@id/start"
+        motion:duration="1000"
+        motion:autoTransition="animateToStart">
+       <KeyFrameSet>
+           <KeyTimeCycle
+               motion:motionTarget="@+id/swingImageView"
+               motion:framePosition="100"
+               motion:wavePeriod="1"
+               motion:waveOffset="0"
+               android:translationX="100dp"
+               motion:waveShape="sin" />
+           <KeyTimeCycle
+               motion:motionTarget="@+id/swingImageView"
+               motion:framePosition="100"
+               motion:wavePeriod="1"
+               motion:waveShape="sin"
+               android:rotation="60"
+               motion:waveOffset="0" />
+           <KeyAttribute
+               motion:motionTarget="@+id/swingImageView"
+               motion:framePosition="50"
+               android:translationY="0dp" />
+           <KeyAttribute
+               motion:motionTarget="@+id/swingImageView"
+               motion:framePosition="25"
+               android:translationY="50dp" />
+           <KeyAttribute
+               motion:motionTarget="@+id/swingImageView"
+               motion:framePosition="75"
+               android:translationY="50dp" />
+           <KeyAttribute
+               motion:motionTarget="@+id/swingImageView"
+               motion:framePosition="100"
+               android:translationY="0dp" />
+
+       </KeyFrameSet>
+        <OnClick />
+    </Transition>
+
+    <ConstraintSet android:id="@+id/start">
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/peppaView">
+    </ConstraintSet>
+</MotionScene>

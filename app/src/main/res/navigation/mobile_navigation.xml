@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_straight">
+
+    <fragment
+        android:id="@+id/nav_straight"
+        android:name="com.example.motiondemo.ui.straight.StraightFragment"
+        android:label="@string/menu_straight"
+        tools:layout="@layout/fragment_straight" />
+
+    <fragment
+        android:id="@+id/nav_curve"
+        android:name="com.example.motiondemo.ui.curve.CurveFragment"
+        android:label="@string/menu_curve"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_cycle"
+        android:name="com.example.motiondemo.ui.cycle.CycleFragment"
+        android:label="@string/menu_cycle"
+        tools:layout="@layout/fragment_cycle" />
+    <fragment
+        android:id="@+id/nav_rotation"
+        android:name="com.example.motiondemo.ui.rotation.RotationFragment"
+        android:label="@string/menu_rotation"
+        tools:layout="@layout/fragment_rotation" />
+    <fragment
+        android:id="@+id/nav_swing"
+        android:name="com.example.motiondemo.ui.swing.SwingFragment"
+        android:label="@string/menu_swing"
+        tools:layout="@layout/fragment_swing" />
+    <fragment
+        android:id="@+id/nav_transition"
+        android:name="com.example.motiondemo.ui.transition.TransitionFragment"
+        android:label="@string/menu_transition"
+        tools:layout="@layout/fragment_transition" />
+    <fragment
+        android:id="@+id/nav_complex"
+        android:name="com.example.motiondemo.ui.complex.ComplexFragment"
+        android:label="@string/menu_complex"
+        tools:layout="@layout/fragment_complex" />
+</navigation>

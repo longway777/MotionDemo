@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MotionDemo</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">MotionLayout Demo</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">关于</string>
+    <string name="about_dialog_text">Android Studio 4.0 新功能: Motion Editor \n用来编辑MotionLayout的动画非常方便。
+        \n本例动画全部都在Motion Editor中创建。\n没有使用一行代码。</string>
+    <string name="menu_straight">直线</string>
+    <string name="menu_curve">曲线</string>
+    <string name="menu_cycle">周期</string>
+    <string name="menu_rotation">旋转</string>
+    <string name="menu_swing">摆荡</string>
+    <string name="menu_transition">过渡</string>d
+    <string name="menu_complex">复杂</string>d
+    <string name="george">George</string>
+    <string name="peppa">Peppa Pig</string>
+    <string name="mummy_pig">Mummy Pig</string>
+    <string name="daddy_pig">Daddy Pig</string>
+    <string name="rotation_image">Rotation</string>
+    <string name="swing_image">Swing</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_straight"
+            android:icon="@drawable/ic_baseline_looks_one_24"
+            android:title="@string/menu_straight" />
+        <item
+            android:id="@+id/nav_curve"
+            android:icon="@drawable/ic_baseline_looks_two_24"
+            android:title="@string/menu_curve" />
+        <item
+            android:id="@+id/nav_cycle"
+            android:icon="@drawable/ic_baseline_looks_3_24"
+            android:title="@string/menu_cycle" />
+        <item
+            android:id="@+id/nav_rotation"
+            android:icon="@drawable/ic_baseline_looks_4_24"
+            android:title="@string/menu_rotation" />
+        <item
+            android:id="@+id/nav_swing"
+            android:icon="@drawable/ic_baseline_looks_5_24"
+            android:title="@string/menu_swing" />
+        <item
+            android:id="@+id/nav_transition"
+            android:icon="@drawable/ic_baseline_looks_6_24"
+            android:title="@string/menu_transition" />
+        <item
+            android:id="@+id/nav_complex"
+            android:icon="@drawable/ic_baseline_favorite_border_24"
+            android:title="@string/menu_complex" />
+    </group>
+</menu>
