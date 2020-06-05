@@ -52,8 +52,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             motion:layout_constraintBottom_toBottomOf="parent"
-            motion:layout_constraintVertical_bias="0.294"
-            motion:layout_constraintHorizontal_bias="0.67"
+            motion:layout_constraintVertical_bias="0.499"
+            motion:layout_constraintHorizontal_bias="0.719"
             motion:layout_constraintTop_toTopOf="parent"
             motion:layout_constraintStart_toStartOf="parent" >
             <CustomAttribute
@@ -125,8 +125,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             motion:layout_constraintBottom_toBottomOf="parent"
-            motion:layout_constraintVertical_bias="0.499"
-            motion:layout_constraintHorizontal_bias="0.716"
+            motion:layout_constraintVertical_bias="0.294"
+            motion:layout_constraintHorizontal_bias="0.688"
             motion:layout_constraintTop_toTopOf="parent"
             motion:layout_constraintStart_toStartOf="parent" >
             <CustomAttribute
