@@ -42,4 +42,14 @@
         android:name="com.example.motiondemo.ui.complex.ComplexFragment"
         android:label="@string/menu_complex"
         tools:layout="@layout/fragment_complex" />
+    <fragment
+        android:id="@+id/nav_text"
+        android:name="com.example.motiondemo.ui.text.TextFragment"
+        android:label="@string/menu_text"
+        tools:layout="@layout/fragment_text" />
+    <fragment
+        android:id="@+id/nav_image"
+        android:name="com.example.motiondemo.ui.image.ImageFragment"
+        android:label="@string/menu_image"
+        tools:layout="@layout/fragment_image" />
 </navigation>

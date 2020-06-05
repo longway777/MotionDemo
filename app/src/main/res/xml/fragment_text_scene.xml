@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <ConstraintSet android:id="@+id/end">
+        <Constraint
+            android:id="@+id/textView12"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintVertical_bias="0.266"
+            motion:layout_constraintHorizontal_bias="0.153"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintStart_toStartOf="parent" >
+            <CustomAttribute
+                motion:attributeName="textColor"
+                motion:customColorValue="@android:color/holo_red_light" />
+        </Constraint>
+        <Constraint
+            android:id="@+id/textView13"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintVertical_bias="0.294"
+            motion:layout_constraintHorizontal_bias="0.33"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintStart_toStartOf="parent" >
+            <CustomAttribute
+                motion:attributeName="textColor"
+                motion:customColorValue="@android:color/holo_purple" />
+        </Constraint>
+        <Constraint
+            android:id="@+id/textView14"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintVertical_bias="0.267"
+            motion:layout_constraintHorizontal_bias="0.507"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintStart_toStartOf="parent" >
+            <CustomAttribute
+                motion:attributeName="textColor"
+                motion:customColorValue="@android:color/holo_blue_bright" />
+        </Constraint>
+        <Constraint
+            android:id="@+id/textView15"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintVertical_bias="0.294"
+            motion:layout_constraintHorizontal_bias="0.67"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintStart_toStartOf="parent" >
+            <CustomAttribute
+                motion:attributeName="textColor"
+                motion:customColorValue="@android:color/holo_orange_dark" />
+        </Constraint>
+        <Constraint
+            android:id="@+id/textView16"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintVertical_bias="0.266"
+            motion:layout_constraintHorizontal_bias="0.849"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintStart_toStartOf="parent" >
+            <CustomAttribute
+                motion:attributeName="textColor"
+                motion:customColorValue="@android:color/holo_green_light" />
+        </Constraint>
+        <Constraint
+            android:id="@+id/textView17"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintVertical_bias="0.499"
+            motion:layout_constraintHorizontal_bias="0.311"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintStart_toStartOf="parent" >
+            <CustomAttribute
+                motion:attributeName="textColor"
+                motion:customColorValue="@android:color/holo_orange_light" />
+            <CustomAttribute
+                motion:attributeName="scaleY"
+                motion:customFloatValue="1.5" />
+        </Constraint>
+        <Constraint
+            android:id="@+id/textView18"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintVertical_bias="0.499"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintHorizontal_bias="0.45" >
+            <CustomAttribute
+                motion:attributeName="textColor"
+                motion:customColorValue="@android:color/holo_blue_light" />
+        </Constraint>
+        <Constraint
+            android:id="@+id/textView19"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintVertical_bias="0.499"
+            motion:layout_constraintHorizontal_bias="0.586"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintStart_toStartOf="parent" >
+            <CustomAttribute
+                motion:attributeName="textColor"
+                motion:customColorValue="@android:color/holo_green_dark" />
+        </Constraint>
+        <Constraint
+            android:id="@+id/textView20"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintVertical_bias="0.499"
+            motion:layout_constraintHorizontal_bias="0.716"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintStart_toStartOf="parent" >
+            <CustomAttribute
+                motion:attributeName="textColor"
+                motion:customColorValue="@android:color/holo_purple" />
+        </Constraint>
+        <Constraint
+            android:id="@+id/textView21"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintVertical_bias="0.499"
+            motion:layout_constraintHorizontal_bias="0.847"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintStart_toStartOf="parent" >
+            <CustomAttribute
+                motion:attributeName="scaleY"
+                motion:customFloatValue="1.5" />
+            <CustomAttribute
+                motion:attributeName="textColor"
+                motion:customColorValue="@android:color/holo_red_light" />
+            <CustomAttribute
+                motion:attributeName="alpha"
+                motion:customFloatValue="1" />
+        </Constraint>
+    </ConstraintSet>
+    <ConstraintSet android:id="@+id/begin" >
+        <Constraint
+            android:id="@+id/textView12"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintVertical_bias="0.12"
+            motion:layout_constraintHorizontal_bias="0.29"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintStart_toStartOf="parent">
+            <CustomAttribute
+                motion:attributeName="textColor"
+                motion:customColorValue="@android:color/white" />
+        </Constraint>
+        <Constraint
+            android:id="@+id/textView13"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintVertical_bias="0.238"
+            motion:layout_constraintHorizontal_bias="0.3"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintStart_toStartOf="parent">
+            <CustomAttribute
+                motion:attributeName="textColor"
+                motion:customColorValue="@android:color/white" />
+        </Constraint>
+        <Constraint
+            android:id="@+id/textView14"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintVertical_bias="0.349"
+            motion:layout_constraintHorizontal_bias="0.3"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintStart_toStartOf="parent">
+            <CustomAttribute
+                motion:attributeName="textColor"
+                motion:customColorValue="@android:color/white" />
+        </Constraint>
+        <Constraint
+            android:id="@+id/textView15"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintVertical_bias="0.467"
+            motion:layout_constraintHorizontal_bias="0.3"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintStart_toStartOf="parent">
+            <CustomAttribute
+                motion:attributeName="textColor"
+                motion:customColorValue="@android:color/white" />
+        </Constraint>
+        <Constraint
+            android:id="@+id/textView16"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintVertical_bias="0.594"
+            motion:layout_constraintHorizontal_bias="0.3"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintStart_toStartOf="parent">
+            <CustomAttribute
+                motion:attributeName="textColor"
+                motion:customColorValue="@android:color/white" />
+        </Constraint>
+        <Constraint
+            android:id="@+id/textView17"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintVertical_bias="0.2"
+            motion:layout_constraintHorizontal_bias="0.7"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintStart_toStartOf="parent">
+            <CustomAttribute
+                motion:attributeName="textColor"
+                motion:customColorValue="@android:color/white" />
+            <CustomAttribute
+                motion:attributeName="scaleY"
+                motion:customFloatValue="1" />
+        </Constraint>
+        <Constraint
+            android:id="@+id/textView21"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintVertical_bias="0.68"
+            motion:layout_constraintHorizontal_bias="0.7"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintStart_toStartOf="parent">
+            <CustomAttribute
+                motion:attributeName="scaleY"
+                motion:customFloatValue="1" />
+            <CustomAttribute
+                motion:attributeName="scaleX"
+                motion:customFloatValue="1" />
+            <CustomAttribute
+                motion:attributeName="textColor"
+                motion:customColorValue="@android:color/white" />
+            <CustomAttribute
+                motion:attributeName="alpha"
+                motion:customFloatValue="1" />
+        </Constraint>
+        <Constraint
+            android:id="@+id/textView18"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintVertical_bias="0.32"
+            motion:layout_constraintHorizontal_bias="0.7"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintStart_toStartOf="parent">
+            <CustomAttribute
+                motion:attributeName="textColor"
+                motion:customColorValue="@android:color/white" />
+        </Constraint>
+        <Constraint
+            android:id="@+id/textView19"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintVertical_bias="0.44"
+            motion:layout_constraintHorizontal_bias="0.7"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintStart_toStartOf="parent">
+            <CustomAttribute
+                motion:attributeName="textColor"
+                motion:customColorValue="@android:color/white" />
+        </Constraint>
+        <Constraint
+            android:id="@+id/textView20"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintVertical_bias="0.56"
+            motion:layout_constraintHorizontal_bias="0.7"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintStart_toStartOf="parent">
+            <CustomAttribute
+                motion:attributeName="textColor"
+                motion:customColorValue="@android:color/white" />
+        </Constraint>
+    </ConstraintSet>
+    <Transition
+        motion:constraintSetStart="@+id/begin"
+        motion:constraintSetEnd="@+id/end"
+        motion:staggered="0.6"
+        motion:duration="2000"
+        motion:motionInterpolator="cubic(0.4,0,0.4,1)">
+        <KeyFrameSet >
+            <KeyCycle
+                motion:motionTarget="@+id/textView21"
+                motion:framePosition="100"
+                motion:wavePeriod="1"
+                android:rotationY="60"
+                motion:waveOffset="0" />
+            <KeyCycle
+                motion:motionTarget="@+id/textView19"
+                motion:framePosition="100"
+                motion:wavePeriod="1"
+                android:rotation="60"
+                motion:waveOffset="0" />
+            <KeyAttribute
+                motion:motionTarget="@+id/textView20"
+                motion:framePosition="100"
+                android:rotation="360" />
+            <KeyAttribute
+                motion:motionTarget="@+id/textView17"
+                motion:framePosition="100"
+                android:rotationY="360" />
+        </KeyFrameSet>
+        <OnClick />
+    </Transition>
+</MotionScene>

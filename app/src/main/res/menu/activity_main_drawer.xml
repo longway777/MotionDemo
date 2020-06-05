@@ -29,6 +29,14 @@
             android:icon="@drawable/ic_baseline_looks_6_24"
             android:title="@string/menu_transition" />
         <item
+            android:id="@+id/nav_text"
+            android:icon="@drawable/ic_baseline_text_fields_24"
+            android:title="@string/menu_text" />
+        <item
+            android:id="@+id/nav_image"
+            android:icon="@drawable/ic_baseline_photo_filter_24"
+            android:title="@string/menu_image" />
+        <item
             android:id="@+id/nav_complex"
             android:icon="@drawable/ic_baseline_favorite_border_24"
             android:title="@string/menu_complex" />

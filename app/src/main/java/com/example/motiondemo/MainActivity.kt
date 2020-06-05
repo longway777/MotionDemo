@@ -41,6 +41,8 @@ class MainActivity : AppCompatActivity() {
                 R.id.nav_rotation,
                 R.id.nav_swing,
                 R.id.nav_transition,
+                R.id.nav_text,
+                R.id.nav_image,
                 R.id.nav_complex
             ), drawerLayout
         )
